@@ -1,0 +1,54 @@
+step 1. git open
+
+
+step2 2. right click on your folder and enter the git bash
+
+
+step 3.  popup the git cmd
+
+
+step 4. enter the command --->
+1)git config --global user.name nitin
+2)git config --global user.email "nitinchauhan9698@gmail.com"
+
+
+step.5  file banavani
+optional 6e jo tamaro data bov moto hoi and kai use ma na avto hoi to te file apde gitignore name ni file ma path apine save karvani atle apoap a remove thy jase
+
+file banava mate no command --> touch .gitignore
+
+step 6.--->    git init
+
+step7.-->    git add .
+
+
+step.8 [commit karva mate use thy 6] --> git commit-m "Intial commit"
+
+step 9.[status janva mate k su chale 6] --> git status
+
+step 10. project ma jaine SSH click krine project ni link laine [git@github.com:nitchauhan/all-in-one-webdevloper.git] cmd ma jaine command ---> git remote add origin  tart j link[git@github.com:nitchauhan/all-in-one-webdevloper.git]
+
+
+step 11) --> git push origin master[git hub ni profile ma jaine setting profile ma jaine SSH ma jaine new SSH genrate karvanii and Key sodhva mate]
+
+step 12)---->   ssh key genraete  [
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"]
+cmd ma paste karvani
+
+ssh key genrate mate --->      /c/Users/User/.ssh/id_rsa.pub
+
+step 13)  ---->      cat -->  /c/Users/User/.ssh/id_rsa.pub
+
+
+
+step 14 ) SSH key ma paste karvani value p6i save kari devani[  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCae3UMfTsh1jQ4jBWiEqt22lvu4Yrhk7cGZZG5ab0NHXE+kRz53MQSZa5YbIxsmxwdsqD4SrlN3QeIi0yXWtq4URIXnr2y2sWu+dX8+6T5auEybRgwVv/50EdGfxdCZnbtGj3KCk7YGk9eVZYb4wFm2mESwGf3y4PmQ0YUlajILQzEikGxb7RRO5Zp7lhOUYAdbPrJ44e6CHdCUlJen/iTzjizGbDSNSmgaZp2bDo81W+6niTpTACyE+xuDnEw9Lxa20drdfDDxNvUkixJ9TMW9hNjklzXarci6zE3+JwlDg9xA2llMBDmHAlWkQn+1r3Jvm1XToJVu6Fhc+nE0Ga4faFZmPVetueqrDeoG4psez+ub9pAKZTYU2vSisKqCZooWIWWHBal+L7pzh1B8Dvl7x00oaeEI6wayJ3bCesJAzVtSurEnAiuqCxjgg9PsfxaNNrU3qiqvAhaeTi0rGcM90e5XwnlceaelPRw6VyV6CIc4msIdQgI7ar9Vi7hwPdNfQOlojAkdFsutHI0n5meGYgROt/Q6le2Arg2c0eUurgT8uwuUy+ZA3VWCCN8y+47IBTIsoBpHsjFcm+eJW8MnasazZQKqTNLZExMIY3BHU7Ni683B8siDdu9hoV0awf8vgdhenXb+fYHYHmkPfDANsFtwR1wZcVBXIxUZkL6GQ== nitinchauhan9698@gmail.com
+]
+
+
+step 15)git push origin master      [atle push thy jase project ma]
+
+step 16) koi b file banai hoi and update karvi hoito --1) git status  2) git add .  3) git commit -m"Added filename"  4)git push origin master
+
+//////////////////////////////////////project public karva mate////////////////////////
+ git hub ni setting ma jaine DAZING ZONE ma jaine change repository ma jaine public karine j type karva apelu hoi a as it as lakhi devanu.... finally done..
+
